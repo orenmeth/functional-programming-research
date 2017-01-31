@@ -1,0 +1,21 @@
+Functional Programming Concepts:
+1) Pure vs Impure Functions
+1.1) Pure functions only operate on their input parameters.
+1.2) Most useful pure functions must take at least one parameter, otherwise they should rather be constants.
+1.3) Pure functions will always produce the same output given the same input.
+1.4) Pure functions have no side effects, so their behaviour is predictable.
+2) Functional Programming cannot completely eliminate side effects, as this would imply a system that have no effect 
+	other that warming the room.
+3) The goal is to segregate the impure, stateful, effect-inducing parts of the application from the pure, reliable parts.
+4) Immutability: x = x + 1 is illegal in maths and it's illegal in functional programming. 
+	Variables in pure functional programming terms are constants. They're only called variables for historical purposes.
+5) No variables
+6) No loops: loops modify an internal variable on each iteration. Not thread safe. Functional programming uses recursion.
+
+
+i)	Complexity (FP encouages fully decomposed code)
+ii)	Reusability
+iii)Global Mutable State
+iv)	Dynamic Typing
+v)	Testing
+vi)	The Demise of Moore's Law
